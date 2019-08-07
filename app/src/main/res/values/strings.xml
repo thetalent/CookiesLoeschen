@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cookies löschen</string>
+    <string name="marked">checked</string>
+    <string name="regel">Nimm soviele Kekse aus einer Reihe wie Du willst. \'Klicke Sie einfach an und dann lössche die
+        Cookies. Dein Gegenspieler macht das Gleiche. Wer den letzten Keks nimmt, hat gewonnen.
+    </string>
+</resources>

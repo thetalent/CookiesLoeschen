@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical" android:visibility="visible"
+        android:id="@+id/root" android:backgroundTint="#156AAD" android:background="#2196F3">
+    <TextView
+            android:text="Cookies löschen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:fontFamily="@font/acme"/>
+    <TextView
+            android:text="@string/regel"
+            android:layout_width="match_parent"
+            android:layout_height="119dp" android:id="@+id/Regeln" android:layout_marginTop="10px"
+            android:layout_marginBottom="20px" android:background="#CDDC39" android:textSize="18sp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="266dp" android:id="@+id/cookies">
+        <LinearLayout
+                android:layout_height="83dp" android:layout_width="match_parent" android:id="@+id/row0">
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b15" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:gravity="fill_horizontal|left|fill_vertical"
+                    android:layout_width="100px" android:layout_gravity="left" android:width="100px"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r1"/>
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b14" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:gravity="fill_horizontal|left|fill_vertical"
+                    android:layout_width="100px" android:layout_gravity="left" android:width="100px"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r1"/>
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b13" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:gravity="fill_horizontal|left|fill_vertical"
+                    android:layout_width="100px" android:layout_gravity="left" android:width="100px"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r1"/>
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b12" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:gravity="fill_horizontal|left|fill_vertical"
+                    android:layout_width="100px" android:layout_gravity="left" android:width="100px"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r1"/>
+            <Button
+                    android:layout_height="match_parent"
+                    android:id="@+id/b11" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:gravity="fill_horizontal|left|fill_vertical"
+                    android:layout_width="100px" android:layout_gravity="left" android:width="100px"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="90dp" android:id="@+id/row1">
+            <Button
+                    android:layout_width="100px"
+                    android:layout_height="78dp"
+                    android:id="@+id/b24" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r2"/>
+            <Button
+                    android:layout_width="100px"
+                    android:layout_height="78dp"
+                    android:id="@+id/b23" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r2"/>
+            <Button
+                    android:layout_width="100px"
+                    android:layout_height="78dp"
+                    android:id="@+id/b22" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" android:onClick="mark" android:tag="r2"/>
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b21" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="100px" android:layout_weight="1" android:onClick="mark" android:tag="r2"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="89dp" android:id="@+id/row2">
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b32" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" android:onClick="mark" android:layout_width="wrap_content"
+                    android:tag="r3"/>
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b33" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" android:onClick="mark" android:layout_width="wrap_content"
+                    android:tag="r3"/>
+            <Button
+                    android:layout_height="78dp"
+                    android:id="@+id/b31" android:background="@drawable/cookie"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" android:onClick="mark" android:layout_width="wrap_content"
+                    android:tag="r3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+            android:text="Cookies löschen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/change" android:onClick="checkOut"/>
+    <Button
+            android:text="Neues Spiel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/nochmal" android:onClick="reload"
+            android:visibility="invisible"/>
+
+
+</LinearLayout>
